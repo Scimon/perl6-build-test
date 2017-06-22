@@ -6,7 +6,7 @@
   "depends" : [
       "File::Temp",
       "YAMLish",
-      "Text::Markdown"
+      "Template::Mustache"
   ],
   "description" : "Dummy module for testing travis building",
   "license" : "Artistic-2.0",
