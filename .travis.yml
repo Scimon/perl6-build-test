@@ -4,12 +4,7 @@ os:
 language: perl6
 perl6:
   - latest
+  - '2017.06'
 install:
   - rakudobrew build zef
-  - zef install --verbose YAMLish
-  - zef install --verbose File::Temp
-  - zef install --verbose Text::Markdown
-  - zef install --verbose Template::Mustache
-script:
-  - PERL6LIB=$PWD/lib prove -e perl6 -vr t/
-sudo: false
+  - zef install --verbose YAMLish File::Temp Text::Markdown Template::Mustache
