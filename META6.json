@@ -4,9 +4,6 @@
   ],
   "build-depends" : [ ],
   "depends" : [
-    "Text::Markdown",
-    "Template::Mustache",
-    "YAMLish",
     "File::Temp"
   ],
   "description" : "Dummy module for testing travis building",
