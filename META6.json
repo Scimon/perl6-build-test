@@ -5,8 +5,8 @@
   "build-depends" : [ ],
   "depends" : [
       "Text::Markdown",
-      "YAMLish",
-      "Template::Mustache"
+      "Template::Mustache",
+      "File::Temp"
   ],
   "description" : "Dummy module for testing travis building",
   "license" : "Artistic-2.0",
