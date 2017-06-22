@@ -3,9 +3,7 @@ os:
   - osx
 language: perl6
 perl6:
-  - latest
-  - '2017.06'
   - '2017.05'
 install:
   - rakudobrew build zef
-  - zef install --verbose YAMLish File::Temp Text::Markdown Template::Mustache
+  - zef --debug --depsonly install .
